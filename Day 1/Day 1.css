@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.block{
+    
+    width: 100%;
+    background-color: #2F303A;
+    display: inline-block;
+
+}
+
+.box{
+    height: 300px;
+    width: 22%;
+    background-color: #E53293;
+    display: inline-block;
+}
+
+@media (max-width:420px) {
+
+    .box{
+        width: 90%;
+    }
+
+
+}
